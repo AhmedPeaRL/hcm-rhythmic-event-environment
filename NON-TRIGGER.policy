@@ -1,0 +1,11 @@
+RULE: No triggers are permitted.
+
+
+Forbidden:
+- Event listeners
+- Hooks
+- Polling
+- Condition checks
+
+
+An event must never be awaited.
